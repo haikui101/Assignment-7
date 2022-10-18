@@ -96,8 +96,8 @@
 //Console.WriteLine($"The amount of people who failed is: {amount_of_people_who_failed}");
 
 
-//// Assignment 8
-//static int multiplier(int x,int y)
+////Assignment 8
+//static int multiplier(int x, int y)
 //{
 //    int z = x;
 //    for (int i = 1; i < y; i++)
@@ -115,7 +115,7 @@
 //int y = int.Parse(Console.ReadLine());
 //multiplier(x, y);
 
-//// Assignment 9
+////Assignment 9
 
 //Console.WriteLine("Please input a number: ");
 //int x = int.Parse(Console.ReadLine());
@@ -128,11 +128,17 @@
 //}
 //Console.WriteLine(z);
 
-// Assignment 10
+//Assignment 10
 //static int pairs_checker(int firstpair, int secondpair)
 //{
-//    int even_pairs = 0;
-//    int odd_pairs = 0;
+//    if (firstpair % secondpair == 0)
+//    {
+//        Console.WriteLine("This pair is even"); ;
+//    }
+//    else if (firstpair % secondpair != 0)
+//    {
+//        Console.WriteLine("This pair is odd");
+//    }
 //    for (int i = 0; i < 5; i++)
 //    {
 //        Console.WriteLine("please input first number: ");
@@ -142,15 +148,13 @@
 
 //        if (pair1 % pair2 == 0)
 //        {
-//            even_pairs++;
+//            Console.WriteLine("This pair is even"); ;
 //        }
 //        else if (pair1 % pair2 != 0)
 //        {
-//            odd_pairs++;
+//            Console.WriteLine("This pair is odd");
 //        }
 //    }
-//    Console.WriteLine($"the amount of even pairs are:{even_pairs} ");
-//    Console.WriteLine($"and the amount of odd pairs are: {odd_pairs}");
 
 
 //    return 0;
@@ -164,24 +168,25 @@
 //pairs_checker(firstpair, secondpair);
 
 
-//// Assingment 11
+// Assingment 11
 //static int group_calc(int amount_of_kids)
 //{
-    
+
 //    int group_of_children = 0;
 //    int group_of_teenagers = 0;
 //    int guide_for_children = 0;
 //    int guide_for_adult = 0;
 //    for (int i = 0; i < amount_of_kids; i++)
 //    {
-//     Console.WriteLine("Please enter an age: ");
-//     int age = int.Parse(Console.ReadLine());
-//     if ((age >= 8) && (age <= 11))
-//      {
-//         group_of_children++;
-//      } else if ((age >= 12) && (age <= 15))
-//       {
-//           group_of_teenagers++;
+//        Console.WriteLine("Please enter an age: ");
+//        int age = int.Parse(Console.ReadLine());
+//        if ((age >= 8) && (age <= 11))
+//        {
+//            group_of_children++;
+//        }
+//        else if ((age >= 12) && (age <= 15))
+//        {
+//            group_of_teenagers++;
 //        }
 //    }
 //    guide_for_children = group_of_children / 4;
@@ -191,10 +196,8 @@
 //    int req_guide_for_adult = 150 / 7;
 //    Console.WriteLine($"There are {group_of_children} kids in the age range of: 8-11");
 //    Console.WriteLine($"{group_of_teenagers} kids in the age range of: 12-15");
-//    Console.WriteLine($"{guide_for_children} guides for children (8-11)");
-//    Console.WriteLine($"{guide_for_adult} guides for adults (12-15)");
-//    Console.WriteLine($"{req_guide_for_children} guides required for children");
-//    Console.WriteLine($"{req_guide_for_adult} guides required for adults");
+//    Console.WriteLine($"{req_guide_for_children - guide_for_children} guides required for children");
+//    Console.WriteLine($"{req_guide_for_adult - guide_for_adult} guides required for adults");
 //    return 0;
 //}
 
@@ -203,13 +206,22 @@
 //group_calc(num);
 
 
-// Assignment 12
+////Assignment 12
 //int usernum = int.Parse(Console.ReadLine());
 //int x = usernum;
-//Console.WriteLine(usernum);
-//for (int i = usernum-1; i > 0; i--)
+//for (int i = 1; i < usernum; i++)
 //{
 //    x = x * i;
 //}
 //Console.WriteLine(x);
+
+
+
+
+
+
+
+
+
+
 
