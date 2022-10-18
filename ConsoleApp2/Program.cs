@@ -49,51 +49,51 @@
 //}
 
 // Assignment 6
-//int high_student_grades = 0;
-//int low_student_grades = 0;
-//int avg_grades_in_israel;
+//int HighStudentGrades = 0;
+//int LowStudentGrades = 0;
+//int AvgGradesInIsrael;
 //Console.WriteLine("Please input the average of grades in israel: ");
-//avg_grades_in_israel = int.Parse(Console.ReadLine());
+//AvgGradesInIsrael = int.Parse(Console.ReadLine());
 //for (int i = 0; i < 8; i++)
 //{
 //    Console.WriteLine("Please input a grade: ");
-//    int studentgrade = int.Parse(Console.ReadLine());
-//    if (studentgrade > avg_grades_in_israel)
+//    int StudentGrade = int.Parse(Console.ReadLine());
+//    if (studentgrade > AvgGradesInIsrael)
 //    {
-//        high_student_grades++;
-//    } else if (studentgrade < avg_grades_in_israel)
+//        HighStudentGrades++;
+//    } else if (StudentGrade < AvgGradesInIsrael)
 //    {
-//        low_student_grades++;
+//        LowStudentGrades++;
 //    }
 //}
-//Console.WriteLine($"The amount of students that are below the average is: {low_student_grades}");
-//Console.WriteLine($"The amount of students that are above the average is: {high_student_grades}");
+//Console.WriteLine($"The amount of students that are below the average is: {LowStudentGrades}");
+//Console.WriteLine($"The amount of students that are above the average is: {HighStudentGrades}");
 
 
 
 
 // Assignment 7
-//int amount_of_people_who_were_tested;
+//int amountOfPeopleWhoWereTested;
 //Console.WriteLine("Please input the amount of people who were tested: ");
-//amount_of_people_who_were_tested = int.Parse(Console.ReadLine());
-//int amount_of_people_who_failed = 0;
-//int amount_of_people_who_passed = 0;
+//amountOfPeopleWhoWereTested = int.Parse(Console.ReadLine());
+//int amountOfPeopleWhoFailed = 0;
+//int amountOfPeopleWhoPassed = 0;
 
-//for (int i = 0; i < amount_of_people_who_were_tested; i++)
+//for (int i = 0; i < amountOfPeopleWhoWereTested; i++)
 //{
 //    Console.WriteLine("Please input the amount of mistakes: ");
-//    int amount_of_mistakes = int.Parse(Console.ReadLine());
-//    if (amount_of_mistakes > 3)
+//    int amountOfMistakes = int.Parse(Console.ReadLine());
+//    if (amountOfMistakes > 3)
 //    {
-//        amount_of_people_who_failed++;
-//    } else if (amount_of_mistakes < 3)
+//        amountoOfPeopleWhoFailed++;
+//    } else if (AmountOfMistakes < 3)
 //    {
-//        amount_of_people_who_passed++;
+//        amountOfPeopleWhoPassed++;
 //    }
 
 //}
-//Console.WriteLine($"The amount of people who passed is: {amount_of_people_who_passed}");
-//Console.WriteLine($"The amount of people who failed is: {amount_of_people_who_failed}");
+//Console.WriteLine($"The amount of people who passed is: {AmoudntOfPeopleWhoPassed}");
+//Console.WriteLine($"The amount of people who failed is: {AmountOfPeopleWhoFailed}");
 
 
 ////Assignment 8
@@ -129,13 +129,13 @@
 //Console.WriteLine(z);
 
 //Assignment 10
-//static int pairs_checker(int firstpair, int secondpair)
+//static int PairsChecker(int firstPair, int secondPair)
 //{
-//    if (firstpair % secondpair == 0)
+//    if (firstPair % secondPair == 0)
 //    {
 //        Console.WriteLine("This pair is even"); ;
 //    }
-//    else if (firstpair % secondpair != 0)
+//    else if (firstPair % secondPair != 0)
 //    {
 //        Console.WriteLine("This pair is odd");
 //    }
@@ -161,43 +161,43 @@
 //}
 
 //Console.WriteLine("please input first number: ");
-//int firstpair = int.Parse(Console.ReadLine());
+//int firstPair = int.Parse(Console.ReadLine());
 //Console.WriteLine("please input second number: ");
-//int secondpair = int.Parse(Console.ReadLine());
+//int SecondPair = int.Parse(Console.ReadLine());
 
-//pairs_checker(firstpair, secondpair);
+//PairsChecker(firstPair, SecondPair);
 
 
 // Assingment 11
-//static int group_calc(int amount_of_kids)
+//static int GroupCalc(int AmountOfKids)
 //{
 
-//    int group_of_children = 0;
-//    int group_of_teenagers = 0;
-//    int guide_for_children = 0;
-//    int guide_for_adult = 0;
-//    for (int i = 0; i < amount_of_kids; i++)
+//    int groupOfChildren = 0;
+//    int groupOfTeenagers = 0;
+//    int guideForChildren = 0;
+//    int guideForAdult = 0;
+//    for (int i = 0; i < amountOfKids; i++)
 //    {
 //        Console.WriteLine("Please enter an age: ");
 //        int age = int.Parse(Console.ReadLine());
 //        if ((age >= 8) && (age <= 11))
 //        {
-//            group_of_children++;
+//            groupOfChildren++;
 //        }
 //        else if ((age >= 12) && (age <= 15))
 //        {
-//            group_of_teenagers++;
+//            groupOfTeenagers++;
 //        }
 //    }
-//    guide_for_children = group_of_children / 4;
-//    guide_for_adult = group_of_teenagers / 7;
+//    guideForChildren = groupOfChildren / 4;
+//    guideForAdult = groupOfTeenagers / 7;
 
-//    int req_guide_for_children = 150 / 4;
-//    int req_guide_for_adult = 150 / 7;
-//    Console.WriteLine($"There are {group_of_children} kids in the age range of: 8-11");
-//    Console.WriteLine($"{group_of_teenagers} kids in the age range of: 12-15");
-//    Console.WriteLine($"{req_guide_for_children - guide_for_children} guides required for children");
-//    Console.WriteLine($"{req_guide_for_adult - guide_for_adult} guides required for adults");
+//    int reqGuideForChildren = 150 / 4;
+//    int reqGuideForAdult = 150 / 7;
+//    Console.WriteLine($"There are {groupOfChildren} kids in the age range of: 8-11");
+//    Console.WriteLine($"{groupOfTeenagers} kids in the age range of: 12-15");
+//    Console.WriteLine($"{reqGuideForChildren - guideForChildren} guides required for children");
+//    Console.WriteLine($"{reqGuideForAdult - guideForAdult} guides required for adults");
 //    return 0;
 //}
 
